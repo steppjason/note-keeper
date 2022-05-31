@@ -5,8 +5,6 @@ import Footer from "./components/Footer"
 import AddNoteInput from "./components/AddNoteInput"
 import Note from "./components/Note"
 
-//import Notes from "./data/Notes"
-
 function App() {
 
 	const [notes, setNotes] = useState([])
@@ -23,8 +21,6 @@ function App() {
 				return note.id !== id
 			})
 		})
-
-		console.log("delete")
 	}
 
 	return (
