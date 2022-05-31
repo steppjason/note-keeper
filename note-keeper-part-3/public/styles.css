@@ -41,7 +41,7 @@ header, button {
 footer {
 	padding: 1rem;
 	text-align: center;
-	color:rgb(194, 194, 194)
+	color:rgb(194, 194, 194);
 }
 
 main {
@@ -49,6 +49,8 @@ main {
 	display:flex;
 	gap: 1.5rem;
 	flex-wrap: wrap;
+	min-height:500px;
+	align-items: flex-start;
 }
 
 .note, .input {
@@ -58,7 +60,7 @@ main {
 }
 
 .note{
-	min-width: calc(20% - 1.5rem);
+	min-width: 350px;
 	min-height: 200px;
 }
 
